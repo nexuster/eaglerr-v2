@@ -23,7 +23,7 @@ button:active {
 }
 
 .hero {
-    color: aliceblue;
+    /* color: aliceblue; */
     height: 230px;
     position: relative;
 }
