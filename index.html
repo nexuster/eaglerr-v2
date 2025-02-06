@@ -7,12 +7,20 @@
     <div class="hero">
       <h1>eaglerr</h1>
       <h3>an easy to use eaglercraft launcher!!!</h3>
+      <button onclick="recent()">launch recent</button>
     </div>
-    <button onclick="recent()">Open Most Recent Update</button>
-
+    <label for="choose">choose your eagler</label>
+    <select id="choose">
+      <option value="X1-8-u49.html">x - 1.8 u49</option>
+    </select>
+    <button onclick="launch()">launch</button>
     <script>
       function recent() {
         window.location.href = 'clients/X1-8-u49.html'
+      }
+
+      function launch() {
+        window.location.href = 'clients/' + document.getElementById("choose").value;
       }
     </script>
   </body>
