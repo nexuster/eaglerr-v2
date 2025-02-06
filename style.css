@@ -4,3 +4,11 @@ body, select, option {
     font-family: 'Micro 5', sans-serif;
     font-size: 150%;
 }
+
+button, select, option {
+    background-image: url('images/texture.png');
+    border: 2px, black;
+    background-color: #7e7e7e;
+    background-size: 100% auto;
+    padding: 10px;
+}
