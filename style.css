@@ -24,14 +24,18 @@ button:active {
 
 .hero {
     color: aliceblue;
-    background-color: linear-gradient(rgba(0, 0, 0, 0.383),rgba(0,0,0,0));
+    height: 230px;
+    position: relative;
 }
 
 .hero-image {
-    background-image: url(https://minecraftforfreex.com/images/eaglercraft.png);
+    background-image: url(https://minecraftforfreex.com/images/eaglercraft.png), linear-gradient(rgba(0, 0, 0, 0.383),rgba(0,0,0,0));;
 
     filter: blur();
     -webkit-filter: blur(8px);
 
-    height: 100px;
+    height: 230px;
+
+    margin: 0;
+    position: absolute;
 }
