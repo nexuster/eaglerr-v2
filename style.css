@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Micro+5&display=swap');
 
-body, select, option {
+body, select, option, button {
     font-family: 'Micro 5', sans-serif;
     font-size: 150%;
 }
@@ -19,7 +19,7 @@ button:hover, select:hover, option:hover {
 }
 
 button:active {
-    transform: translateY(-2px);
+    transform: translateY(+2px);
 }
 
 .hero {
